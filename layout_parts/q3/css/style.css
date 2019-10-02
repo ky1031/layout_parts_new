@@ -2,4 +2,40 @@
 
 /* 回答はここに書いてね */
 
+.q3__table {
+  width: 100%;
+  border: solid #dedede 1px;
+}
+.q3__table tbody tr:last-child {
+  border-top: dashed #000 2px;
+}
+
+.q3__table th , .q3__table td{
+  width: calc(100% / 6);
+  padding: 10px 0; 
+  text-align: center;
+  box-sizing: border-box;
+  border: solid #dedede 1px;
+}
+
+.q3__table th {
+  font-size: 18px;
+  line-height: 26px;
+  color: #fff;
+  background-color: #2244aa;
+}
+.q3__table td {
+  line-height: 22px;
+}
+.q3__table thead th {
+  border-right: solid #dedede 1px;
+}
+
+.q3__table td:last-child {
+  border-right: none;
+}
+
+.q3__table tbody tr:nth-child(even) {
+  background-color: #ecf1f2;
+}
 /* 回答はここに書いてね */
